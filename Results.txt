@@ -1,0 +1,149 @@
+					CASE 1
+
+time scala nitinhw 1 24
+Start : 1347588546007
+
+real    0m0.551s
+user    0m0.612s
+sys     0m0.056s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 10 24
+Start : 1347588552512
+
+real    0m0.561s
+user    0m0.632s
+sys     0m0.076s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 100 24
+Start : 1347588557148
+
+real    0m0.541s
+user    0m0.612s
+sys     0m0.060s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1000 24
+Start : 1347588559352
+
+real    0m0.520s
+user    0m0.588s
+sys     0m0.048s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 10000 24
+Start : 1347588561863
+
+real    0m0.519s
+user    0m0.588s
+sys     0m0.040s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 100000 24
+Start : 1347588564082
+
+real    0m0.536s
+user    0m0.632s
+sys     0m0.044s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1000000 24
+Start : 1347588566628
+
+real    0m0.579s
+user    0m0.744s
+sys     0m0.032s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 10000000 24
+Start : 1347588569366
+
+real    0m1.073s
+user    0m1.712s
+sys     0m0.044s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 100000000 24
+Start : 1347588572918
+
+real    0m5.836s
+user    0m11.149s
+sys     0m0.064s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1000000000 24
+Start : 1347588581352
+
+real    0m52.789s
+user    1m44.343s
+sys     0m0.096s
+
+
+
+
+
+
+
+					CASE 2
+
+
+
+
+
+
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1 1000
+Start : 1347588678838
+
+real    0m0.509s
+user    0m0.572s
+sys     0m0.048s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 2 1000
+Start : 1347588683481
+
+real    0m0.504s
+user    0m0.576s
+sys     0m0.048s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1 1000
+Start : 1347588688403
+
+real    0m0.515s
+user    0m0.588s
+sys     0m0.028s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 10 1000
+Start : 1347588691702
+
+real    0m0.508s
+user    0m0.580s
+sys     0m0.032s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 100 1000
+Start : 1347588694295
+
+real    0m0.504s
+user    0m0.580s
+sys     0m0.036s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1000 1000
+Start : 1347588698774
+
+real    0m0.513s
+user    0m0.600s
+sys     0m0.028s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 10000 1000
+Start : 1347588704569
+
+real    0m0.517s
+user    0m0.612s
+sys     0m0.032s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 100000 1000
+Start : 1347588708577
+
+real    0m0.573s
+user    0m0.704s
+sys     0m0.048s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1000000 1000
+Start : 1347588711502
+
+real    0m0.950s
+user    0m1.464s
+sys     0m0.032s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 10000000 1000
+Start : 1347588715161
+
+real    0m4.770s
+user    0m9.081s
+sys     0m0.044s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 100000000 1000
+Start : 1347588725508
+
+real    0m42.824s
+user    1m24.949s
+sys     0m0.164s
+nar@lin116-12:~/Desktop/scala-2.9.2/bin$ time scala nitinhw 1000000000 1000
+Start : 1347588791868
+
+real    7m4.266s
+user    14m4.025s
+sys     0m2.108s
+
